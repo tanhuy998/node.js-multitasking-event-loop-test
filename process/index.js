@@ -9,7 +9,7 @@ if (isMainThread) {
 
     console.log('main thread id:', threadId);
 
-    require('../temp.js');
+    require('./temp.js');
 
     //const thread = new Worker(path.join(__dirname, './temp.js'));
 
